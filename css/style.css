@@ -136,7 +136,7 @@ SOLUZIONE RESPONSIVE
 @media screen and (max-width:480px) {
 
     .container {
-        width: 480px;
+        width: 90%;
 
     }
 
@@ -186,7 +186,7 @@ SOLUZIONE RESPONSIVE
 
 @media screen and (max-width:768px) {
     .container {
-        width: 768px;
+        width: 90%;
 
     }
 }
