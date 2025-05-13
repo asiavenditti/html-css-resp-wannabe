@@ -126,13 +126,17 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
- ************************************************/
+SOLUZIONE RESPONSIVE
+************************************************/
 
-@media screen and (max-width: 480px) {
+
+
+/* Mobile First 480px */
+
+@media screen and (max-width:480px) {
 
     .container {
-        max-width: 450px;
+        width: 480px;
 
     }
 
@@ -175,4 +179,14 @@ img {
 
     }
 
+}
+
+
+/* Tablet 768px */
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 768px;
+
+    }
 }
